@@ -4,7 +4,7 @@ import pandas as pd
 import joblib  # For model loading
 
 # Load the trained model
-model = joblib.load('/home/paladin/university/ML/trained_model.pkl')
+model = joblib.load('trained_model.pkl')
 
 # Load the imputer
 imputer = joblib.load('knn_imputer.pkl')
