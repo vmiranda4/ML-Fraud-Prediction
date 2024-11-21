@@ -30,6 +30,10 @@ Finalmente el modelo con el que obtuve la mejor cantidad de falsos negativos (o 
 
 Teniendo entonces todo lo necesario para desplegar el modelo, este se construye en el archivo `streamlit_app.py`.
 
+## [Link a la app Streamlit](https://ml-fraud-prediction.streamlit.app/)
+
+### [Link presentación](https://www.canva.com/design/DAGXES01ucM/mNkowNqU-8s-olDF0dmYNQ/view?utm_content=DAGXES01ucM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 ### Conclusiones y observaciones finales
 
 Todo el proceso fue muy enriquecedor para mí. Desde consultar sobre diferentes técnicas y poder implementarlas, además de explorar un poco la creatividad tanto en el preprocesamiento como durante el entrenamiento del modelo, creo que fue una gran experiencia. Además de esto, fue interesante ver cómo la diferencia en la cantidad de datos de cada clase afectaba el desempeño del modelo, y todas las ideas que pueden surgir para encontrar un equilibrio, porque siempre que mejoraban los verdaderos positivos, los verdaderos negativos se veían afectados. En general, considero que los resultados son aceptables y de igual forma se me siguen ocurriendo ideas para intentar mejorar el modelo, tal vez con diferentes transformaciones, o incluso con diferentes variables.
