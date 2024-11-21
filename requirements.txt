@@ -3,4 +3,5 @@ joblib
 numpy
 pandas
 scikit-learn
+xgboost
 numpy
