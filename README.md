@@ -1,8 +1,10 @@
 # Detección de transacciones fraudulentas con Machine Learning
 
+*Por: Valentina Miranda Garcés*
+
 En este proyecto se desarrolla de forma completa todo el proceso para obtener un producto final que es una **aplicación Streamlit** para interactuar fácilmente con el modelo.
 
-Toda esta primera parte se encuentra en el archivo `Pred_Fraude.ipynb`.
+Toda esta primera parte se encuentra en el archivo [`Pred_Fraude.ipynb`](https://github.com/vmiranda4/ML-Fraud-Prediction/blob/main/Pred_Fraude.ipynb).
 
 En primer lugar se realizar el Análisis Exploratorio de Los Datos, donde es posible evidenciar una gran cantidad de outliers. Adicionalmente, se llevan a cabo transformaciones a las variables que pueden ser útiles al momento de implementar los modelos. En total se usaron 3 tipos de transformaciones: RobustScaler, QuantileTransformer y $\ln(x+1)$.
 
@@ -28,7 +30,7 @@ En general, la técnica que mejores resultados tuvo por sí misma fue el undersa
 
 Finalmente el modelo con el que obtuve la mejor cantidad de falsos negativos (o sea casos que sí son fraude pero clasificó como no fraude) fue con XGBoost entrenado con la data que combina TomekLinks con undersampling aleatorio y además con calibración de probabilidades tipo `isotonic`. Con este modelo se observa la data de test y también se tienen buenos resultados, lo que indica que el modelo pudo generalizar bien. Finalmente, este es el que se guarda en un archivo `.pkl` para usarlo en la app de Streamlit.
 
-Teniendo entonces todo lo necesario para desplegar el modelo, este se construye en el archivo `streamlit_app.py`.
+Teniendo entonces todo lo necesario para desplegar el modelo, este se construye en el archivo [`streamlit_app.py`](https://github.com/vmiranda4/ML-Fraud-Prediction/blob/main/streamlit_app.py).
 
 ## [Link a la app Streamlit](https://ml-fraud-prediction.streamlit.app/)
 
